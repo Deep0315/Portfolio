@@ -3,29 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sommaire avec menu déroulant</title>
+    <title>Mon Portfolio - Travaux Académiques</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="menu">
+    <header>
+        <div class="header-content">
+            <h1>Portfolio Numérique</h1>
+            <p class="subtitle">Travaux académiques et projets professionnels</p>
+        </div>
+    </header>
+
+    <nav>
         <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Présentation</a>
-                <ul class="submenu">
-                    <li><a href="#">Notre équipe</a></li>
-                    <li><a href="#">Notre histoire</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Services</a>
-                <ul class="submenu">
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Développement</a></li>
-                    <li><a href="#">Marketing</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#" onclick="showSection('td'); return false;">Travaux Demandés</a></li>
+            <li><a href="#" onclick="showSection('notes'); return false;">Notes de Cours</a></li>
+            <li><a href="#" onclick="showSection('documents'); return false;">Système d'Information</a></li>
+            <li><a href="#" onclick="showSection('certifications'); return false;">Certifications</a></li>
+            <li><a href="#" onclick="showSection('projet'); return false;">Projet Final</a></li>
+            <li><a href="#" onclick="showSection('soutenance'); return false;">Soutenance</a></li>
+            <li><a href="#" onclick="showSection('ressources'); return false;">Ressources</a></li>
         </ul>
     </nav>
+
+    <main>
+        <section id="td" class="section active">
+            <h2>📚 Travaux Demandés (TD)</h2>
+            <div class="content-area">
+                <h3>Liste des travaux dirigés</h3>
+                <p>Cette section regroupe l'ensemble des travaux dirigés réalisés durant la formation.</p>
+                <ul class="document-list">
+                    <li>TD n°1 - [Titre du TD à compléter]</li>
+                    <li>TD n°2 - [Titre du TD à compléter]</li>
+                    <li>TD n°3 - [Titre du TD à compléter]</li>
+                </ul>
+                <div class="upload-info">
+                    ℹ️ Les documents seront ajoutés au fur et à mesure de leur réalisation.
+                </div>
+            </div>
+        </section>
+
+        <section id="notes" class="section">
+            <h2>📝 Notes de Cours Individuel</h2>
+            <div class="content-area">
+                <h3>Synthèses et notes personnelles</h3>
+                <p>Retrouvez ici mes notes de cours organisées par thématique.</p>
+                <ul class="document-list">
+                    <li>Module 1 - [Titre du module]</li>
+                    <li>Module 2 - [Titre du module]</li>
+                    <li>Module 3 - [Titre du module]</li>
+                </ul>
+                <div class="upload-info">
+                    ℹ️ Notes mises à jour régulièrement après chaque session de cours.
+                </div>
+            </div>
+        </section>
+
+        <section id="documents" class="section">
+            <h2>🗂️ Documents d'un Système d'Information</h2>
+            <div class="content-area">
+                <h3>Documentation technique</h3>
+                <p>Documentation complète relative aux systèmes d'information étudiés.</p>
+                <ul class="document-list">
+                    <li>Analyse et conception</li>
+                    <li>Modélisation de données</li>
+                    <li>Architecture système</li>
+                    <li>Documentation utilisateur</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2>🏆 Les Certifications</h2>
+            <div class="content-area">
+                <h3>Certifications obtenues</h3>
+                <p>Liste des certifications professionnelles acquises durant le parcours.</p>
+                <ul class="document-list">
+                    <li>[Certification 1] - Date d'obtention</li>
+                    <li>[Certification 2] - Date d'obtention</li>
+                    <li>[Certification 3] - Date d'obtention</li>
+                </ul>
+                <div class="upload-info">
+                    ℹ️ Les badges et attestations seront ajoutés ici.
+                </div>
+            </div>
+        </section>
+
+        <section id="projet" class="section">
+            <h2>🚀 Le Projet Final</h2>
+            <div class="content-area">
+                <h3>Présentation du projet</h3>
+                <p><strong>Titre du projet :</strong> [À compléter]</p>
+                <p><strong>Description :</strong> Présentation détaillée du projet final de formation.</p>
+                <p><strong>Technologies utilisées :</strong> [À compléter]</p>
+                <p><strong>Objectifs :</strong> [À compléter]</p>
+                <ul class="document-list">
+                    <li>Cahier des charges</li>
+                    <li>Documentation technique</li>
+                    <li>Code source</li>
+                    <li>Rapport final</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="soutenance" class="section">
+            <h2>🎤 Diaporama pour la Soutenance</h2>
+            <div class="content-area">
+                <h3>Présentation orale</h3>
+                <p>Support de présentation pour la soutenance finale.</p>
+                <ul class="document-list">
+                    <li>Diaporama de présentation (PDF/PowerPoint)</li>
+                    <li>Notes de soutenance</li>
+                    <li>Démonstration du projet</li>
+                </ul>
+                <div class="upload-info">
+                    ℹ️ Le support sera mis en ligne avant la date de soutenance.
+                </div>
+            </div>
+        </section>
+
+        <section id="ressources" class="section">
+            <h2>📖 Autres Ressources</h2>
+            <div class="content-area">
+                <h3>Ressources complémentaires</h3>
+                <p>Documentation supplémentaire et ressources utiles.</p>
+                <ul class="document-list">
+                    <li>Tutoriels et guides</li>
+                    <li>Veille technologique</li>
+                    <li>Articles et publications</li>
+                    <li>Liens utiles</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Portfolio Numérique | Hébergé sur GitHub</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            document.getElementById(sectionId).classList.add('active');
+            
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
