@@ -18,28 +18,41 @@
         <ul>
             <li><a href="#" onclick="showSection('td'); return false;">Travaux Demandés</a></li>
             <li><a href="#" onclick="showSection('notes'); return false;">Notes de Cours</a></li>
-            <li><a href="#" onclick="showSection('documents'); return false;">Documents d'un SI</a></li>
+            <li><a href="#" onclick="showSection('documents'); return false;">Système d'Information</a></li>
             <li><a href="#" onclick="showSection('certifications'); return false;">Certifications</a></li>
             <li><a href="#" onclick="showSection('projet'); return false;">Projet Final</a></li>
             <li><a href="#" onclick="showSection('soutenance'); return false;">Soutenance</a></li>
-            <li><a href="#" onclick="showSection('ressources'); return false;">Autres Ressources</a></li>
+            <li><a href="#" onclick="showSection('ressources'); return false;">Ressources</a></li>
         </ul>
     </nav>
 
     <main>
         <section id="td" class="section active">
             <h2>📚 Travaux Demandés (TD)</h2>
-            <div class="content-area">
-                <h3>Liste des travaux dirigés</h3>
-                <p>Cette section regroupe l'ensemble des travaux dirigés réalisés durant la formation.</p>
-                <ul class="document-list">
-                    <li>TD n°1 - [Titre du TD à compléter]</li>
-                    <li>TD n°2 - [Titre du TD à compléter]</li>
-                    <li>TD n°3 - [Titre du TD à compléter]</li>
-                </ul>
-                <div class="upload-info">
-                    ℹ️ Les documents seront ajoutés au fur et à mesure de leur réalisation.
+            <p>Cette section regroupe l'ensemble des travaux dirigés réalisés durant la formation.</p>
+            
+            <div class="td-item">
+                <h3>TD n°1 - Introduction aux Systèmes d’Information</h3>
+                <p class="td-description">Description du premier travail dirigé.</p>
+                <div class="td-files">
+                    <a href="Document/TD1.docx" class="file-link" download>📄 Télécharger TD1.docx</a>
                 </div>
+            </div>
+
+            <div class="td-item coming-soon">
+                <h3>TD n°2 - À venir</h3>
+                <p class="td-description">Ce travail dirigé sera ajouté prochainement.</p>
+                <p class="td-status">🔄 En cours de réalisation</p>
+            </div>
+
+            <div class="td-item coming-soon">
+                <h3>TD n°3 - À venir</h3>
+                <p class="td-description">Ce travail dirigé sera ajouté prochainement.</p>
+                <p class="td-status">⏳ À venir</p>
+            </div>
+
+            <div class="upload-info">
+                ℹ️ Les documents seront ajoutés au fur et à mesure de leur réalisation.
             </div>
         </section>
 

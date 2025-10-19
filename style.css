@@ -166,6 +166,77 @@ main {
     margin-top: 1rem;
 }
 
+/* Styles pour les items TD */
+.td-item {
+    background: #f8f9fa;
+    border-left: 4px solid #667eea;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.td-item:hover {
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    transform: translateX(5px);
+}
+
+.td-item h3 {
+    color: #495057;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.td-description {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.td-files {
+    margin: 1rem 0;
+}
+
+.file-link {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.file-link:hover {
+    background: #764ba2;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.td-date {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.td-status {
+    color: #856404;
+    background: #fff3cd;
+    padding: 0.5rem;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.td-item.coming-soon {
+    opacity: 0.7;
+    border-left-color: #adb5bd;
+}
+
+.td-item.coming-soon h3 {
+    color: #6c757d;
+}
+
 /* Footer */
 footer {
     background: rgba(255, 255, 255, 0.95);
