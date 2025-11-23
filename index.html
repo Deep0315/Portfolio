@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Travaux Académiques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Portfolio Numérique</h1>
+            <p class="subtitle">Travaux académiques et projets professionnels</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('td'); return false;">Travaux Demandés</a></li>
+            <li><a href="#" onclick="showSection('notes'); return false;">Notes de Cours</a></li>
+            <li><a href="#" onclick="showSection('documents'); return false;">Document d'un SI</a></li>
+            <li><a href="#" onclick="showSection('certifications'); return false;">Certifications</a></li>
+            <li><a href="#" onclick="showSection('projet'); return false;">Projet Final</a></li>
+            <li><a href="#" onclick="showSection('soutenance'); return false;">Soutenance</a></li>
+            <li><a href="#" onclick="showSection('ressources'); return false;">Autre Ressources</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="td" class="section active">
+            <h2>📚 Travaux Demandés (TD)</h2>
+            <p>Cette section regroupe l'ensemble des travaux dirigés réalisés durant la formation.</p>
+            
+            <div class="td-item">
+                <h3>TD n°1 - Introduction aux Systèmes d'Information</h3>
+                <p class="td-description">Découverte des concepts fondamentaux des systèmes d'information et étude des PGI.</p>
+                <div class="td-files">
+                    <a href="Document\TD\TD1\TD1.docx" class="file-link" download>📄 Télécharger TD1</a>
+                </div>
+                
+                <div class="sub-section">
+                    <h4>📊 PGI (Progiciel de Gestion Intégré)</h4>
+                    <p class="sub-description">Documents et fichiers relatifs au PGI</p>
+                    <div class="td-files">
+                        <a href="Document\TD\TD1\PGI\td_PGI_exercice.docx" class="file-link secondary" download>📝 Télécharger TD PGI</a>
+                        <a href="Document\TD\TD1\PGI\PGI_exercice.xls" class="file-link secondary" download>📊 Télécharger TP Excel PGI</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="td-item">
+                <h3>TD n°2 - Étude de cas : Chaîne de supermarchés (RetailMarket SA)</h3>
+                <p class="td-description">Analyse d'un système d'information dans le secteur de la grande distribution.</p>
+                <div class="td-files">
+                    <a href="Document\TD\TD2\TD2.odt" class="file-link" download>📄 Télécharger TD2</a>
+                </div>
+            </div>
+
+            <div class="td-item">
+                <h3>TD n°3 - Processus de gestion & modélisation</h3>
+                <p class="td-description">Travaux sur les processus de gestion, de modélisation et apprentissage d'Odoo.</p>
+                <div class="td-files">
+                    <a href="Document\TD\TD3\TD3.docx" class="file-link" download>📄 Télécharger TD3</a>
+                </div>
+                
+                <div class="sub-section">
+                    <h4>🖥️ TP Odoo</h4>
+                    <p class="sub-description">Travaux pratiques sur Odoo</p>
+                    <div class="td-files">
+                        <a href="Document\TD\TD3\TP Odoo.docx" class="file-link secondary" download>📝 Télécharger TP Odoo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="td-item">
+                <h3>TD n°4 - Gantt et Méthode Merise</h3>
+                <p class="td-description">Planification de projet avec diagramme de Gantt et modélisation avec la méthode Merise.</p>
+                <div class="td-files">
+                    <a href="Document\TD\TD4\tp gantt.docx" class="file-link" download>📄 Télécharger TD Gantt</a>
+                </div>
+                
+                <div class="sub-section">
+                    <h4>📐 Méthode Merise</h4>
+                    <p class="sub-description">Documents et schémas relatifs à la méthode Merise</p>
+                    <div class="td-files">
+                        <a href="Document\TD\TD4\TD MCD\TD MCD.pdf" class="file-link secondary" download>📕 Télécharger Document Merise (PDF)</a>
+                        <a href="Document\TD\TD4\TD MCD\MCD Exo1.png" class="file-link secondary" download>🖼️ Télécharger Screenshot Merise Exo1</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="td-item">
+                <h3>TD n°5 - UML : Use Case et Diagramme de Classe</h3>
+                <p class="td-description">Modélisation UML avec diagrammes de cas d'utilisation et diagrammes de classe.</p>
+                <div class="td-files">
+                    <a href="Document\TD\TD5\USE CASE.docx" class="file-link" download>📄 Télécharger TD Use Case</a>
+                    <a href="Document\TD\TD5\Diagramme de classe.docx" class="file-link" download>📄 Télécharger TD Diagramme de Classe</a>
+                </div>
+            </div>
+
+            <div class="td-item coming-soon">
+                <h3>TD n°6 - À venir</h3>
+                <p class="td-description">Ce travail dirigé sera ajouté prochainement.</p>
+                <p class="td-status">⏳ À venir</p>
+            </div>
+
+            <div class="upload-info">
+                ℹ️ Les documents seront ajoutés au fur et à mesure de leur réalisation.
+            </div>
+        </section>
+
+        <section id="notes" class="section">
+            <h2>📝 Notes de Cours Individuel</h2>
+            <p>Retrouvez ici mes notes de cours organisées par thématique.</p>
+            
+            <div class="td-item">
+                <h3>Notes de Cours</h3>
+                <p class="td-description">Synthèses personnelles et prises de notes durant les sessions de cours.</p>
+                <div class="td-files">
+                    <a href="Document\Notes\Prise_de_notes.docx" class="file-link" download>📝 Télécharger Prises de Notes</a>
+                </div>
+            </div>
+
+            <div class="td-item">
+                <h3>Système d'Information et Organisation</h3>
+                <p class="td-description">Documentation complète sur les systèmes d'information et leur organisation.</p>
+                <div class="td-files">
+                    <a href="Document\Notes\SI_Organisation.pdf" class="file-link" download>📕 Télécharger SI et Organisation</a>
+                </div>
+            </div>
+
+            <div class="td-item">
+                <h3>Gestion de Projets de Systèmes d'Information</h3>
+                <p class="td-description">Cours complet sur les méthodes de gestion de projets SI : Cycle en V, Agile (Scrum/Kanban) et PRINCE2.</p>
+                <div class="td-files">
+                    <a href="Document\Cours\cours gestion de projet version étudiant.odt" class="file-link" download>📚 Télécharger Cours Gestion de Projets SI</a>
+                </div>
+            </div>
+
+            <div class="upload-info">
+                ℹ️ Notes mises à jour régulièrement après chaque session de cours.
+            </div>
+        </section>
+
+        <section id="documents" class="section">
+            <h2>🗂️ Documents d'un Système d'Information</h2>
+            <p>Documentation complète du projet PGI Pro : progiciel de gestion intégré web.</p>
+            
+            <div class="td-item">
+                <h3>📋 Livrables d'un Système d'Information</h3>
+                <p class="td-description">Documentation sur les livrables d'un système d'information.</p>
+                <div class="td-files">
+                    <a href="Document\Autres Ressources\Les livrables SI V2.docx" class="file-link" download>📝 Télécharger Les Livrables d'un SI</a>
+                </div>
+            </div>
+
+            <div class="td-item">
+                <h3>📋 Documentation Projet PGI Pro</h3>
+                <p class="td-description">Ensemble complet des documents du projet PGI Pro : cahier des charges, spécifications et rapports.</p>
+                <div class="td-files">
+                    <a href="Document\Document d'un SI\Livrables\Cahier des charges fonctionnels.pdf" class="file-link" download>📕 Cahier des Charges Fonctionnel</a>
+                    <a href="Document\Document d'un SI\Livrables\Rapport de Faisabilité.pdf" class="file-link" download>📕 Rapport de Faisabilité</a>
+                </div>
+                
+                <div class="sub-section">
+                    <h4>📑 Spécifications Fonctionnelles</h4>
+                    <p class="sub-description">Spécifications générales et détaillées du système</p>
+                    <div class="td-files">
+                        <a href="Document\Document d'un SI\Livrables\SFG.pdf" class="file-link secondary" download>📝 Spécifications Fonctionnelles Générales (SFG)</a>
+                        <a href="Document\Document d'un SI\Livrables\SFD.pdf" class="file-link secondary" download>📝 Spécifications Fonctionnelles Détaillées (SFD)</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="td-item">
+                <h3>🏗️ Documentation Technique</h3>
+                <p class="td-description">Dossier technique, plan de gestion et plan de test du projet.</p>
+                <div class="td-files">
+                    <a href="Document\Document d'un SI\Livrables\Dossier Technique.pdf" class="file-link" download>📘 Dossier Technique</a>
+                    <a href="Document\Document d'un SI\Livrables\Plan de Gestion de Projet.pdf" class="file-link" download>📊 Plan de Gestion de Projet</a>
+                    <a href="Document\Document d'un SI\Livrables\Plan de Test.pdf" class="file-link" download>🧪 Plan de Test</a>
+                </div>
+            </div>
+
+            <div class="td-item">
+                <h3>📐 Modélisation UML</h3>
+                <p class="td-description">Diagrammes UML du système : cas d'utilisation et diagramme de classes.</p>
+                <div class="td-files">
+                    <a href="Document\Document d'un SI\Livrables\Diagramme\Capture d'écran 2025-11-13 104913.png" class="file-link" download>🖼️ Diagramme de Cas d'Utilisation</a>
+                    <a href="Document\Document d'un SI\Livrables\Diagramme\Capture d'écran 2025-11-13 104824.png" class="file-link" download>🖼️ Diagramme de Classes</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+    <h2>🏆 Les Certifications</h2>
+    <p>Certifications et attestations professionnelles obtenues durant le parcours.</p>
+    
+    <div class="td-item">
+        <h3>Formation RGPD - CNIL (L'Atelier RGPD)</h3>
+        <p class="td-description">Formation complète sur le Règlement Général sur la Protection des Données délivrée par la Commission Nationale de l'Informatique et des Libertés.</p>
+        <p class="td-date">📅 Date d'obtention : novembre 2025</p>
+        
+        <div class="sub-section">
+            <h4>📜 Attestations des Modules</h4>
+            <p class="sub-description">6 modules complétés avec succès</p>
+            <div class="td-files">
+                <a href="Document\Certifications\Module 1.pdf" class="file-link secondary" download>📝 Module 1 : Le RGPD et ses notions clés (93%)</a>
+                <a href="Document\Certifications\Module2.pdf" class="file-link secondary" download>📝 Module 2 : Les principes de la protection des données (96%)</a>
+                <a href="Document\Certifications\Module3.pdf" class="file-link secondary" download>📝 Module 3 : Les responsabilités des acteurs (88%)</a>
+                <a href="Document\Certifications\Module4.pdf" class="file-link secondary" download>📝 Module 4 : Le DPO et les outils de la conformité (84%)</a>
+                <a href="Document\Certifications\Module5.pdf" class="file-link secondary" download>📝 Module 5 : Les collectivités territoriales (90%)</a>
+                <a href="Document\Certifications\Module6.pdf" class="file-link secondary" download>📝 Module 6 : Travail et données personnelles (87%)</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="upload-info">
+        ℹ️ Score moyen de la formation : 89,7%
+    </div>
+</section>
+
+        <section id="projet" class="section">
+    <h2>🚀 Le Projet Final</h2>
+    <p>Projet de fin de formation : Progiciel de Gestion Intégré (PGI) web.</p>
+    
+    <div class="td-item">
+        <h3>PGI Pro - Progiciel de Gestion Intégré</h3>
+        <p class="td-description">Application web locale permettant la gestion intégrée d'une PME : stocks, achats, ventes et ressources humaines.</p>
+        
+        <div class="project-info">
+            <p><strong>📋 Description :</strong> Système de gestion intégré développé en HTML, CSS et JavaScript pur, fonctionnant entièrement côté client avec stockage local des données.</p>
+            
+            <p><strong>💻 Technologies utilisées :</strong></p>
+            <ul class="tech-list">
+                <li>HTML5 / CSS3</li>
+                <li>JavaScript (ES6)</li>
+                <li>LocalStorage / SessionStorage</li>
+                <li>Architecture front-end 100% locale</li>
+            </ul>
+            
+            <p><strong>🎯 Objectifs :</strong></p>
+            <ul class="tech-list">
+                <li>Centraliser la gestion des opérations d'une entreprise</li>
+                <li>Gérer les stocks, achats, ventes et RH</li>
+                <li>Système de rôles (Administrateur / Employé)</li>
+                <li>Tableau de bord avec indicateurs clés</li>
+            </ul>
+        </div>
+        
+        <div class="td-files">
+            <a href="https://introduction-si-pgi.page.gd/" class="file-link" target="_blank">🌐 Accéder à l'application PGI Pro</a>
+        </div>
+        
+    </div>
+</section>
+
+        <section id="soutenance" class="section">
+    <h2>🎤 Soutenance du Projet</h2>
+    <p>Présentation orale du projet PGI Pro et du portfolio académique.</p>
+    
+    <div class="td-item">
+        <h3>Diaporama de Présentation</h3>
+        <p class="td-description">Support de présentation pour la soutenance du projet PGI Pro (10 minutes).</p>
+        <div class="td-files">
+            <a href="Document\Soutenance\Diapo Soutenance.pptx" class="file-link" download>📊 Télécharger le Diaporama (PowerPoint)</a>
+            <a href="Document\Soutenance\Presentation_PGI_Pro.pdf" class="file-link" download>📕 Télécharger le Diaporama (PDF)</a>
+        </div>
+    </div>
+
+    <div class="td-item">
+        <h3>Support de Soutenance</h3>
+        <p class="td-description">Documentation et notes pour la présentation orale.</p>
+        
+        <div class="project-info">
+            <p><strong>📋 Contenu de la présentation :</strong></p>
+            <ul class="tech-list">
+                <li>Introduction au projet PGI Pro</li>
+                <li>Présentation des livrables (9 documents)</li>
+                <li>Méthodologie et gestion de projet</li>
+                <li>Diagrammes UML (Use Case, Classes)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+        <section id="ressources" class="section">
+    <h2>📖 Autres Ressources</h2>
+    <p>Documentation supplémentaire et ressources complémentaires utiles.</p>
+    
+    <div class="td-item">
+        <h3>Gestion de Projet avec un SI</h3>
+        <p class="td-description">Gestion de projet à l'aide d'un système d'information.</p>
+        <div class="td-files">
+            <a href="Document\Autres Ressources\dossier gestion projet.docx" class="file-link" download>📄 Télécharger Gestion de Projet SI</a>
+        </div>
+    </div>
+
+    <div class="td-item">
+        <h3>Cycle de Vie d'un Système d'Information</h3>
+        <p class="td-description">Documentation sur les phases et les livrables d'un système d'information.</p>
+        <div class="td-files">
+            <a href="Document\Autres Ressources\Les phases d'un SI.docx" class="file-link" download>📄 Télécharger Les Phases d'un SI</a>
+        </div>
+        
+        <div class="sub-section">
+            <h4>📋 Livrables</h4>
+            <p class="sub-description">Documentation sur les livrables d'un système d'information</p>
+            <div class="td-files">
+                <a href="Document\Autres Ressources\Les livrables SI V2.docx" class="file-link secondary" download>📝 Télécharger Les Livrables d'un SI</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="td-item">
+        <h3>Étude de Cas : SFG Entreprise Chasse de Têtes</h3>
+        <p class="td-description">Spécifications Fonctionnelles Générales pour TalentSeek International - Exemple d'analyse complète d'un système de recrutement.</p>
+        <div class="td-files">
+            <a href="Document\Autres Ressources\SFG_TalentSeek.docx" class="file-link" download>📄 Télécharger Étude de Cas SFG</a>
+        </div>
+    </div>
+
+    <div class="td-item">
+        <h3>Énoncé de Projet L3 MIAGE</h3>
+        <p class="td-description">Énoncé officiel du projet de Système d'Information / PGI Web - Contexte et livrables attendus.</p>
+        <div class="td-files">
+            <a href="Document\Autres Ressources\Énoncé du Projet.docx" class="file-link" download>📄 Télécharger Énoncé du Projet</a>
+        </div>
+    </div>
+
+    <div class="upload-info">
+        ℹ️ D'autres ressources seront ajoutées au fur et à mesure.
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Portfolio Numérique | Hébergé sur GitHub</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            document.getElementById(sectionId).classList.add('active');
+            
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
